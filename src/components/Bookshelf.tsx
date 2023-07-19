@@ -33,7 +33,7 @@ const HeaderToolbar = styled(Toolbar)(({ theme }) => ({
 const AddButton = styled(Button)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
     marginBottom: theme.spacing(2),
-    width: "100%", // Full width on smaller screens
+    width: "100%", // Full width on smaller screens//
   },
   width: "240px", // Default width for larger screens
   height: "60px", // Default height for all screens
